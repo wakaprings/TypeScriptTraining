@@ -1,7 +1,13 @@
 # githubへのプッシュ
 git push -u origin main
 
-git commit -m "TypeScript Commmit 2021-02-13_183925"
+# git通例コマンド
+git add .
+git commit -m "TypeScript Commmit 2021-02-13_18:45:46"
 
+git checkout -b create-package-json
+
+# TypeScript
+npm init -y
 
 npx ts-node-dev --respawn xxxxxxxx.ts
