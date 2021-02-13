@@ -1,13 +1,18 @@
-# githubへのプッシュ
-git push -u origin main
-
-# git通例コマンド
-git add .
-git commit -m "TypeScript Commmit 2021-02-13_18:45:46"
-
+# 新規ブランチ作成
 git checkout -b create-package-json
+git branch
 
 # TypeScript
 npm init -y
+git status
+# git通例コマンド
+git add .
+git commit -m "TypeScript Commmit 2021-02-13_19:18:31"
+# githubへのプッシュ
+git push -u origin HEAD
+git merge -
+git push origin HEAD
+
+npm install -g npm
 
 npx ts-node-dev --respawn xxxxxxxx.ts
