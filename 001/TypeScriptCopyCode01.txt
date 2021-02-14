@@ -1,0 +1,11 @@
+# githubへのプッシュ
+git push -u origin main
+
+git commit -m "TypeScript Commmit 2021-02-13_183925"
+
+npm install typescript ts-loader webpack webpack-cli webpack-dev-server --save-dev
+npm install --save-dev ts-node-dev
+npx ts-node-dev --respawn C:\TypeScriptTraining\testsample01.ts
+
+# ファイル監視モード
+tsc testsample01.ts -w

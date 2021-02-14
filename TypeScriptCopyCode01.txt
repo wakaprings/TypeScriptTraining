@@ -1,7 +1,0 @@
-# githubへのプッシュ
-git push -u origin main
-
-git commit -m "TypeScript Commmit 2021-02-13_183925"
-
-
-npx ts-node-dev --respawn xxxxxxxx.ts
